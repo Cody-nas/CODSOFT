@@ -1,0 +1,221 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background: #F5F7FA;
+}
+
+/* Header styling */
+header {
+    background: #4A90E2;
+    color: #ECF0F1;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #ECF0F1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero section styling */
+.hero {
+    background: url('path/to/your-hero-image.jpg') no-repeat center center/cover;
+    color: #ECF0F1;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    padding: 1rem 2rem;
+    background: #F5A623;
+    color: #ECF0F1;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background: #F28B1A;
+}
+
+/* About Us section styling */
+#about {
+    padding: 4rem 2rem;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+#about h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #4A90E2;
+}
+
+#about .section-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Services section styling */
+#services {
+    padding: 4rem 2rem;
+    background: #E9F7FA;
+    text-align: center;
+}
+
+#services h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #4A90E2;
+}
+
+.service {
+    margin-bottom: 2rem;
+}
+
+.service-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.service h2 {
+    color: #50E3C2;
+    margin-bottom: 1rem;
+}
+
+/* Testimonials section styling */
+#testimonials {
+    padding: 4rem 2rem;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+#testimonials h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #4A90E2;
+}
+
+.testimonial {
+    margin-bottom: 2rem;
+}
+
+.testimonial p:first-child {
+    font-style: italic;
+}
+
+/* Contact section styling */
+#contact {
+    padding: 4rem 2rem;
+    background: #E9F7FA;
+    text-align: center;
+}
+
+#contact h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #4A90E2;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.7rem 2rem;
+    border: none;
+    background: #4A90E2;
+    color: #ECF0F1;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #3A70B2;
+}
+
+/* Footer styling */
+footer {
+    background: #333333;
+    color: #ECF0F1;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+/* h1 styling */
+h1 {
+    font-size: 2.5rem;
+    color: #2C3E50;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Specific sections h1 */
+#about h1,
+#services h1,
+#testimonials h1,
+#contact h1 {
+    font-size: 2rem;
+    color: #50E3C2;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    border-bottom: 3px solid #2C3E50;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
